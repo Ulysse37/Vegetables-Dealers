@@ -2,3 +2,8 @@ h1 {
   color: rgb(69, 245, 122);
   text-align: center;
 }
+
+figure {
+  margin-left: 2rem;
+  max-width: 700px;
+}
