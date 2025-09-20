@@ -4,7 +4,7 @@ function Header() {
 
   return (
     <header className="header">
-      <p className="header-text">La pataterie</p>
+      <h1>La ferme Bouton </h1>
     </header>
   )
 }

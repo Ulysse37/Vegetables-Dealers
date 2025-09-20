@@ -4,8 +4,11 @@ function Footer() {
 
   return (
     <footer className="footer">
-      <a href="mailto:email@example.com">Envoyer Email</a>
-      <p>Tél : +00 00 00 00 00</p>
+      <address>
+        <p>Nous contacter :</p>
+        <a href="mailto:email@example.com">email@example.com</a>
+        <p>Tél : +00 00 00 00 00</p>
+      </address>
     </footer>
   )
 }
