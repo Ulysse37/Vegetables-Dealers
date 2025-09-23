@@ -2,12 +2,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  height: 250px;
   background-color: rgb(88, 182, 108);
 }
 
 header img {
-  height: 60px;
+  height: 200px;
 }
 
 header h1 {
