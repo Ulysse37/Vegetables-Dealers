@@ -7,6 +7,7 @@ function Home() {
     <>
       <main>
         <section>
+          <h1>Magasin de légumes frais et locaux au Val de Loire</h1>
           <h2>Qui sommes nous ?</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
