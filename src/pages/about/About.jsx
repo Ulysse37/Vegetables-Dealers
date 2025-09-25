@@ -1,7 +1,7 @@
-import './home.css';
+import './about.css';
 import vegeEtal from '../../assets/vegeEtal.jpg';
 
-function Home() {
+function About() {
 
   return (
     <>
@@ -24,4 +24,4 @@ function Home() {
   )
 }
 
-export default Home
+export default About
