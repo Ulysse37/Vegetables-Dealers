@@ -1,4 +1,5 @@
 import './about.css';
+import OldCouple from '../../assets/aboutPage/oldFarmerCouple.jpg';
 
 function About() {
 
@@ -8,6 +9,9 @@ function About() {
         <section>
           <h1>Au maraîcher du Val de Loire</h1>
           <h2>Qui sommes nous ?</h2>
+          <figure>
+            <img src={OldCouple} alt="Arrière grands-parents sur l'exploitation" />
+          </figure>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
