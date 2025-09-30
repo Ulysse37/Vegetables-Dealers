@@ -7,14 +7,18 @@ header {
   background-color: rgb(88, 182, 108);
 }
 
-header img {
-  height: 200px;
-}
-
 header nav {
   display: flex;
   justify-content: space-around;
   width: 60%;
   color: white;
   font-weight: bold;
+}
+
+header img {
+  height: 200px;
+}
+
+nav a.active {
+  border-bottom: 2px solid black;
 }
