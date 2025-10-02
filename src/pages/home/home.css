@@ -13,3 +13,8 @@ main p {
   margin-bottom: 15px;
   text-align: justify;
 }
+
+.horaires,
+.adresse {
+  text-align: center;
+}
