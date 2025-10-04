@@ -22,3 +22,15 @@ header img {
 nav a.active {
   border-bottom: 2px solid black;
 }
+
+@media (min-width: 1024px) {
+  header nav {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  header nav {
+    width: 40%;
+  }
+}
