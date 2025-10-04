@@ -1,13 +1,5 @@
-.about {
-  /* width: 50%; */
-  /* max-width: 1300px; */
-  /* margin: auto; */
-  text-align: center;
-}
-
 .gallery-slider {
   max-width: 300px; /* règle width du slider */
-  /* max-height: 350px; */
   margin-top: 2rem;
   border-radius: 12px;
   overflow: hidden;

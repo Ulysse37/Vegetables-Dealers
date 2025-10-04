@@ -15,12 +15,14 @@ function Home() {
           </p>
           <p className="adresse">15 rue du Port, Saint-Benoît-sur-Loire.</p>
           <h2>Qui sommes nous ?</h2>
-          <p className='presentation-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          <p className='presentation-text'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
             commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
             fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
-            mollit anim id est laborum.</p>
+            mollit anim id est laborum.
+          </p>
           <figure>
             <img src={vegeEtal} alt="Etal de légume" />
           </figure>
