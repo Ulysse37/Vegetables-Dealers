@@ -1,5 +1,5 @@
 .gallery-slider {
-  max-width: 300px; /* règle width du slider */
+  width: 100%; /* règle width du slider */
   margin-top: 2rem;
   border-radius: 12px;
   overflow: hidden;
@@ -23,48 +23,30 @@
   width: 100%;
 }
 
-
 .swiper-button-next,
 .swiper-button-prev {
   color: white !important; /* couleur des boutons navigation slider */
 }
 
-
 @media (min-width: 640px) {
-  .gallery-slider {
-    max-width: 500px;
-  }
-
   .gallery-slider img {
     height: 400px;
   }
 }
 
 @media (min-width: 768px) {
-  .gallery-slider {
-    max-width: 650px;
-  }
-
   .gallery-slider img {
     height: 450px;
   }
 }
 
 @media (min-width: 1024px) {
-  .gallery-slider {
-    max-width: 900px;
-  }
-
   .gallery-slider img {
     height: 450px;
   }
 }
 
 @media (min-width: 1280px) {
-  .gallery-slider {
-    max-width: 1200px;
-  }
-
   .gallery-slider img {
     height: 500px;
   }
