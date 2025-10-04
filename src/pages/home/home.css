@@ -1,6 +1,17 @@
 main {
   display: flex;
-  margin: 10px;
+  /* margin: 10px; */
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+main p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+section h1 {
+  text-align: start;
 }
 
 figure img {
@@ -9,12 +20,44 @@ figure img {
   object-fit: cover;
 }
 
-main p {
-  margin-bottom: 15px;
-  text-align: justify;
-}
-
 .horaires,
 .adresse {
   text-align: center;
+}
+
+@media (min-width: 640px) {
+  section h1 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  figure img {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  /* .presentation-text {
+    width: 1024px;
+  } */
+  figure img {
+    /* width: 1024px; */
+    height: 400px;
+  }
+}
+
+@media (min-width: 1280px) {
+  main {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
 }

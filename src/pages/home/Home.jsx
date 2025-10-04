@@ -8,11 +8,14 @@ function Home() {
       <main>
         <section>
           <h1>Magasin de légumes frais et locaux au Val de Loire</h1>
-          <h2>Horaires</h2>
-          <p className="horaires">Du lundi au samedi de 8h30 à 19h.</p>
+          <h2>Horaires et adresse</h2>
+          <p className="horaires">
+            Du lundi au samedi de 8h30 à 19h.<br />
+            Dimanche de 8h30 à 13h.
+          </p>
           <p className="adresse">15 rue du Port, Saint-Benoît-sur-Loire.</p>
           <h2>Qui sommes nous ?</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+          <p className='presentation-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
             commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
